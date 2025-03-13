@@ -1,0 +1,38 @@
+  
+  .section-2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7f8c8d;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+    min-height: 100px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+  }
+  
+  textarea:focus {
+    outline: none;
+    border-color: #62a1cc;
+  }
+  
+  pre {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+ 
