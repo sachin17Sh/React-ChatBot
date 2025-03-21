@@ -1,38 +1,102 @@
+
+.section-2 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(72, 70, 70);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  resize: none;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+  color: #585555;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #62a1cc;
+  box-shadow: 0 4px 8px rgba(98, 161, 204, 0.1);
   
-  .section-2 h3 {
-    font-size: 20px;
-    font-weight: 600;
-    color: #7f8c8d;
-    text-align: center;
+}
+
+pre {
+  background: #605e5e;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: white;
+  line-height: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.responseData {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  position: relative;
+}
+
+.responseData textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  resize: none;
+  min-height: 80px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #62a1cc;
+  box-shadow: 0 4px 8px rgba(98, 161, 204, 0.1);
+}
+
+.responseData svg {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: #0c0c0c;
+  position: absolute;
+  right: 15px; 
+  bottom: 20px;
+  font-size: 28px; 
+}
+
+.responseData svg:hover {
+  transform: scale(1.2);
+  color: #585a5c;
+  transform: rotate(-60deg);
+}
+
+
+.section-1{
+  background: #474646;
+  h1 {
+    font-size: 28px;
+    color: #fdfdfd;
   }
-  
-  textarea {
-    width: 100%;
-    padding: 12px;
-    font-size: 18px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    resize: none;
-    min-height: 100px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    transition: border-color 0.3s ease;
-  }
-  
-  textarea:focus {
-    outline: none;
-    border-color: #62a1cc;
-  }
-  
-  pre {
-    background-color: #ecf0f1;
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 20px;
-    font-size: 1rem;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-  }
-  
- 
+}
+
+.mainContainer{
+  flex: 1;
+}
